@@ -1,0 +1,9 @@
+Se intento hacer funcionar un PAR CLIENTE - SERVIDOR TCP CON SELECT,
+FCNTL Y SETSOCKOPT
+PERO el uso de fcntl(2) causaba un comportamiento raro al aplicarla
+sobre los conectores TCP, por lo que se eliminaron de los respectivos
+codigos fuentes quedando entonces:
+
+	- cliente-tcp-con-select-setsockopt.c
+	
+	- servidor-tcp-con-select-setsockopt.c
